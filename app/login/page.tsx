@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic' // This line fixes the build error
+
 import Link from "next/link";
 import Messages from "./messages";
 import { createClient } from "@/utils/supabase/server";
@@ -55,7 +57,7 @@ export default function Login() {
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
-          viewBox="0 0 24 24" // This line is now corrected
+          viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
