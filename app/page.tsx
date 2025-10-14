@@ -58,7 +58,7 @@ export default async function ProtectedPage() {
       <div className="animate-in flex-1 flex flex-col gap-8 opacity-0 max-w-4xl px-3 py-12">
         <main className="flex-1 flex flex-col gap-6">
           <h2 className="font-bold text-2xl">
-            Welcome, {user.email}
+            Preview Welcome, {user.email}
           </h2>
 
           <div className="p-4 border rounded-md">
